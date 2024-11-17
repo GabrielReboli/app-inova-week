@@ -9,12 +9,22 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npm install
    ```
+   ```bash
+   npm install @supabase/supabase-js
+   ```
 
 2. Start the app
 
    ```bash
     npx expo start
    ```
+
+No arquivo `supabaseClient.ts`, insira suas credenciais do Supabase:
+
+```typescript
+const supabaseUrl = '<sua-url-supabase>';
+const supabaseAnonKey = '<sua-chave-anonima>';
+```
 
 In the output, you'll find options to open the app in a
 
@@ -48,3 +58,17 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+# Sobre o aplicativo em questão:
+
+## Inova Week 2025 - Aplicativo Móvel
+
+Este é um projeto desenvolvido para a feira **Inova Week 2025**, criado utilizando [Expo](https://expo.dev) e integrado com o backend do [Supabase](https://supabase.com).
+
+O aplicativo possui as seguintes funcionalidades:
+- **Login** e **Cadastro** de usuários com autenticação via Supabase.
+- Recuperação de senha por e-mail.
+- Listagem de grupos e seus detalhes.
+- Integração com banco de dados Supabase para gerenciamento de grupos e membros.
+
+---
